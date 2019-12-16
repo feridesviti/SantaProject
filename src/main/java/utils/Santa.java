@@ -34,7 +34,9 @@ public class Santa {
         }catch (NullPointerException n){
             exceptPerson2 = "";
         }
-        System.out.println("Santa : " + santa.santa.getName() + " will make gifts to " + santa.santaTo.getName() + " definitely will not give to " + exceptPerson1 + " " + " and " + exceptPerson2);
+        //System.out.println("Santa : " + santa.santa.getName() + " will make gifts to " + santa.santaTo.getName() + " definitely will not give to " +
+        // exceptPerson1 + " " + " and " + exceptPerson2);
+        System.out.println("Santa : " + santa.santa.getName() + " will make gift");
     }
 
 
